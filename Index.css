@@ -1,204 +1,145 @@
-#color {
- background-color: #323338;
+#one {
+  position: absolute;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  top: -28%;
+  bottom: 0px;
+  width: 12.5%;
+  height: 15%;
+  font-size: 125%;
+  opacity: 0;
 }
-#men {
+#searching {
  position: absolute;
- top: 0;
- left: 0;
- right: 0;
- bottom: 0;
  margin: auto;
- z-index: 0;
+ left: 0px;
+ right: 0px;
+ top: 0px;
+ bottom: 0px;
+ width: 50%;
+ height: 12.5%;
+ font-size: 125%;
+ border-radius: 50px;
+ border: 5px solid;
+ background-color: transparent;
 }
-#up {
- position: absolute;
- width: 8%;
- height: 16%;
- bottom: 31.5%;
- left: 10%;
- user-select: none;
- background-color: #323338;
- color: white;
- font-size: 250%;
- z-index: 1;
+#mode { 
+ font-size: 65%;
+ border-radius: 20px;
+ margin-right: 55%; 
 }
-#leftUp {
- position: absolute;
- width: 8%;
- height: 16%;
- bottom: 31.5%;
- left: 2%;
- user-select: none;
- background-color: #323338;
- color: white;
- font-size: 250%;
- border-top-left-radius: 35px;
- z-index: 1;
-}
-#rightUp {
- position: absolute;
- width: 8%;
- height: 16%;
- bottom: 31.5%;
- left: 18%;
- user-select: none;
- background-color: #323338;
- color: white;
- font-size: 250%;
- border-top-right-radius: 35px;
- z-index: 1;
-}
-#down {
- position: absolute;
- width: 8%;
- height: 16%;
- bottom: 0%;
- left: 10%;
- user-select: none;
- background-color: #323338;
- color: white;
- font-size: 250%;
- z-index: 1;
-}
-#leftDown {
- position: absolute;
- width: 8%;
- height: 16%;
- bottom: 0%;
- left: 2%;
- user-select: none;
- background-color: #323338;
- color: white;
- font-size: 250%;
- border-bottom-left-radius: 35px;
- z-index: 1;
-}
-#rightDown {
- position: absolute;
- width: 8%;
- height: 16%;
- bottom: 0%;
- left: 18%;
- user-select: none;
- background-color: #323338;
- color: white;
- font-size: 250%;
- border-bottom-right-radius: 35px;
- z-index: 1;
-}
-#left {
- position: absolute;
- width: 8%;
- height: 16%;
- bottom: 15.7%;
- left: 2%;
- user-select: none;
- background-color: #323338;
- color: white;
- font-size: 250%;
- z-index: 1;
-}
-#right {
- position: absolute;
- width: 8%;
- height: 16%;
- bottom: 15.7%;
- left: 18%;
- user-select: none;
- background-color: #323338;
- color: white;
- font-size: 250%;
- z-index: 1;
-}
-#size {
- position: absolute;
- width: 8%;
- height: 16%;
- bottom: 15.8%;
- left: 10%;
- user-select: none;
- background-color: #323338;
- color: white;
- z-index: 1;
-}
-/*#box {
- position: absolute;
- left: 0%;
- right: 0%;
- bottom: 0%;
- top: 0%;
+#settings {
+ position: absolute; 
  margin: auto;
+ top: 3.5%;
+ left: 5%;
+ border-radius: 20px;
  width: 10%;
- height: 20%;
-}*/
-#box2 {
- position: absolute;
- left: 0%;
- right: var(--right2, 0%);
- bottom: var(--bottom2, 0%);
- top: 0%;
+ height: 10%;
+}
+#title{
+  margin-top: -1%;
+}
+#msg{
+ margin-top: -13%;
+ font-size: 80%;
+}
+#msg2{
  margin: auto;
- width: 10%;
- height: 20%;
+ font-size: 80%;
+}
+#msg3{
+ margin-left: 60%; 
+ font-size: 80%;
+ margin-top: -4.7%;
+}
+#optionsMenu{
+ width: 8%;
+ height: 6%;
+ border-radius: 20px;
+ font-size: 65%;
+ text-align: center;
+}
+#msg4{
+ margin-left: 65%; 
+ font-size: 80%;
+}
+#chatgpt{
+ border-radius: 20px;
+ margin-right: 32%;  
+ font-size: 55%;
+ width: 8%;
+ height: 6%;
+}
+#imgc{
+ position: absolute;
+ margin: auto;
+ left: 0px;
+ right: 0px;
+ bottom: 0px;
+ top: 40%;
 }
 @media(orientation: portrait) {
- #up {
-  width: 16%;
-  height: 8%;
-  left: 20%;
-  bottom: 15.8%;
+ #one {
+  top: -9.5%;
+  width: 15%;
+  height: 4.5%;
  }
- #leftUp {
-  width: 16%;
-  height: 8%;
-  left: 4%;
-  bottom: 15.8%;
+ #searching {
+  width: 80%;
+  height: 5%;
+  font-size: 200%;
+  border: 10px solid;
  }
- #rightUp {
-  width: 16%;
-  height: 8%;
-  left: 36%;
-  bottom: 15.8%;
- }
- #down {
-  width: 16%;
-  height: 8%;
-  left: 20%;
- }
- #leftDown {
-  width: 16%;
-  height: 8%;
-  left: 4%;
- }
- #rightDown {
-  width: 16%;
-  height: 8%;
-  left: 36%;
- }
- #left {
-  width: 16%;
-  height: 8%;
-  bottom: 7.9%;
-  left: 4.2%;
- }
- #right {
-  width: 16%;
-  height: 8%;
-  bottom: 7.9%;
-  left: 35.9%;
- }
- #size {
-  width: 16%;
-  height: 8%;
-  left: 20%;
-  bottom: 7.9%;
- }
- #box {
+ #settings {
   width: 20%;
- height: 10%;
+  height: 4%;
+  font-size: 175%;
+  border-radius: 40px;
  }
- #box2 {
- width: 20%;
- height: 10%;
+ #title{
+  font-size: 450%;
+ }
+ #msg{
+  margin-top: -10%;
+  font-size: 190%;
+ }
+ #transparent{
+  margin-top: 3%;
+  width: 49%;
+ }
+ #msg2{  
+  font-size: 190%;
+ }
+ #mode {
+  margin-right: 47%; 
+  width: 28%;
+  height: 14%;
+  font-size: 120%;
+  border-radius: 40px;
+ }
+ #msg3{
+  margin-left: 65%; 
+  font-size: 190%;
+ }
+ #optionsMenu{
+  font-size: 120%;
+  border-radius: 30px;
+ }
+ #msg4{
+  margin-top: 2%;
+  margin-left: 65%; 
+  font-size: 190%;
+ }
+ #chatgpt{
+  margin-right: 18%;  
+  font-size: 120%;
+  width: 28%;
+  height: 14%;
+  border-radius: 30px;
+ } 
+ #imgc{
+  top: 15%;
  }
 }

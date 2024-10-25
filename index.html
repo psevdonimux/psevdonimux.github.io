@@ -149,10 +149,6 @@ window.onresize = function(){
  imageLoad();
  modeChatGpt();
  activate();
- const els = document.getElementById('mode');
- const width = els.offsetWidth;
- const height = els.offsetHeight;
- //alert(`Ширина: ${width}px, Высота: ${height}px и телефон: ` + window.innerWidth + ':' + window.innerHeight + 'ширину делим' + (window.innerWidth / width) + ' высоту делим' + (window.innerHeight / height));
 }; 
 transparent.onchange = function(event){
  var value = event.target.value / 10;
@@ -201,5 +197,5 @@ else if(ls != null){
  location.replace(ls);
 }
 }
-</script> 
+</script>
 </html>
